@@ -4,8 +4,13 @@
         private $receiver;
         private $title;
         private $content;
+        public $delivered = false;
         public static $notificationsSound = 'DRIIIN';
 
+        public function send(){
+            $this->delivered = true;
+        }
+        
         //Funzione per l'ottenimento e la stampa del valore di $sender
         public function setSender($sender){
             $this->sender = $sender;

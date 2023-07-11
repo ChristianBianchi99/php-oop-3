@@ -2,6 +2,8 @@
     require_once __DIR__.'/models/CommunicationsSistems.php';
     require_once __DIR__.'/models/Emails.php';
     require_once __DIR__.'/models/Attached.php';
+    require_once __DIR__.'/models/Messages.php';
+    require_once __DIR__.'/models/PushNotifications.php';
 
 ?>
 <!DOCTYPE html>
