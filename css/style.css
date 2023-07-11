@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+/* Layout */
+.email{
+    display: flex;
+}
+.card{
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+}
+th, td{
+    width: 50%;
+    padding: 10px;
+}
+/* General */
+.headline{
+    display: flex;
+    margin-top: 20px;
+}
+h2{
+    margin-left: 10px;
+}
+.led{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 10px;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
